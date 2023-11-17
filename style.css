@@ -202,7 +202,6 @@ nav a {
     height: 85vh;
 }
 .services-box{
-    width: 80vw;
     margin: 0 0 10vh 0;
     height: 20vh;
     border-radius: 10px;
@@ -255,19 +254,19 @@ nav a {
 }
 .news-container{
     margin: 0 0 5vh 0;
-    width: 80vw;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     color: #0E2F4B;
 }
 .news-container a{
-    width: 37vw;
-    height: 25vh;
+    width: 48%;
+    height: 50%;
     text-decoration: none;
     color: #0E2F4B;
     background-color: #ffffff;
     border-radius: 10px;
-    margin:2vh 2vw 2vh 0;
+    margin:1% 2% 1% 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -291,13 +290,13 @@ nav a {
     color: #99A2AA;
 }
 .middle-link-container{
-    width: 80vw;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .middle-link-container a{
-    width: 18vw;
-    height: 8vh;
+    width: 23%;
+    height: 70%;
     background-color: #ffffff;
     border-radius: 10px;
     margin:2vh 2vw 2vh 0;
@@ -330,6 +329,26 @@ nav a {
 }
 footer{
     height: 80vh;
-    padding: 0 10vw;
+    padding: 0 10vw 10vh 10vw;
     background-color: #1D2023;
+}
+.footer-menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #99A2AA;
+}
+.col-sm{
+    height: 90%;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+.col-sm h4{
+    color: #ffffff;
+}
+.col-sm a{
+    color: #99A2AA;
+    text-decoration: none;
+    margin-bottom: 10%;
 }
