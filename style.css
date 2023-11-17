@@ -300,13 +300,14 @@ nav a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 10%;
 }
 .middle-link-container a{
     width: 23%;
     height: 70%;
     background-color: #ffffff;
     border-radius: 10px;
-    margin:2% 2% 2% 0;
+    margin:2% 2% 0 0;
     padding: 0 3vw;
     display: flex;
     justify-content: flex-start;
